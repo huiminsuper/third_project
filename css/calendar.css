@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url("reset.css");
+html {
+  font-size: 625%; }
+
+body {
+  font-size: 16px; }
+
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  font-family: "微软雅黑"; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+  .container header {
+    width: 100%;
+    height: .5rem;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: .5rem; }
+
+.main {
+  width: 100%;
+  -webkit-flex: 1; }
+
+.main {
+  width: 100%;
+  overflow-y: scroll; }
+
+.box {
+  width: 100%;
+  margin-bottom: 20px; }
+  .box ol {
+    width: 100%;
+    height: .48rem;
+    display: -webkit-flex;
+    background: #666;
+    text-align: center;
+    line-height: .48rem;
+    color: white; }
+    .box ol li {
+      -webkit-flex: 1; }
+  .box h2 {
+    line-height: .48rem;
+    text-align: center; }
+
+.box table {
+  width: 100%; }
+  .box table tr {
+    width: 100%; }
+  .box table td {
+    width: 14.286%;
+    height: .4rem;
+    border: 1px solid #ccc;
+    position: relative; }
+    .box table td small {
+      position: absolute;
+      left: 0;
+      top: 0; }
+  .box table .prev {
+    color: #ccc; }
+  .box table .pass {
+    background: #666;
+    color: white; }
+  .box table .in {
+    background: blue;
+    color: white; }
+  .box table span {
+    font-size: .14rem;
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+  .box table b {
+    font-weight: normal;
+    font-size: .14rem;
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+
+/*# sourceMappingURL=calendar.css.map */

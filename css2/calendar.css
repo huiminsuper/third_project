@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@import url(reset.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+  font-size: 18px; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%; }
+
+.wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+  .wrap header {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #007bff;
+    color: white; }
+    .wrap header a {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      width: 12px;
+      height: 20px;
+      background: url(../img/back.png) no-repeat;
+      background-size: 100% 100%; }
+
+.content {
+  -webkit-flex: 1; }
+  .content ul {
+    width: 100%; }
+    .content ul li {
+      width: 100%;
+      height: 82px;
+      line-height: 82px;
+      border-bottom: 1px solid #ccc;
+      padding: 0 20px;
+      position: relative; }
+      .content ul li a {
+        display: -webkit-flex; }
+        .content ul li a span:first-child {
+          width: 90px;
+          height: 80px;
+          color: #007bff;
+          font-size: 14px; }
+        .content ul li a span:nth-child(2) {
+          -webkit-flex: 1;
+          color: #333; }
+        .content ul li a .date {
+          padding-top: 20px;
+          line-height: 24px; }
+          .content ul li a .date p span {
+            color: #333; }
+          .content ul li a .date p span:first-child {
+            font-size: 18px;
+            margin-left: -20px; }
+          .content ul li a .date p span:nth-child(2) {
+            font-size: 14px;
+            margin: 0 5px; }
+          .content ul li a .date p #week_in {
+            margin-left: 55px;
+            color: #333;
+            font-size: 18px; }
+          .content ul li a .date p #week_out {
+            margin-left: 5px;
+            color: #333;
+            font-size: 18px; }
+          .content ul li a .date p i {
+            font-style: normal;
+            color: red;
+            margin: 0 3px; }
+        .content ul li a input {
+          border: none;
+          width: 100%; }
+      .content ul li > i {
+        position: absolute;
+        width: 8px;
+        height: 12px;
+        right: 10px;
+        top: 35px;
+        font-size: 0;
+        background: url(../img/more_07.jpg) no-repeat;
+        background-size: 100% 100%; }
+    .content ul li:first-child > i {
+      right: 80px; }
+    .content ul li:first-child > .set {
+      position: absolute;
+      right: -25px;
+      top: 20px;
+      color: #007bff;
+      font-size: 14px; }
+      .content ul li:first-child > .set > i {
+        position: relative;
+        top: -25px;
+        left: -45px;
+        font-size: 30px; }
+    .content ul li:last-child {
+      border: none;
+      height: 90px;
+      padding-top: 10px; }
+      .content ul li:last-child a {
+        display: -webkit-flex; }
+        .content ul li:last-child a > span {
+          width: 60px;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          font-size: 30px;
+          border-radius: 3px;
+          border: 1px solid #007bff; }
+        .content ul li:last-child a input[type=button] {
+          -webkit-flex: 1;
+          height: 50px;
+          background: #fe5010;
+          margin-left: 20px;
+          color: white;
+          text-align: center;
+          line-height: 50px;
+          font-size: 18px;
+          border-radius: 10px; }
+
+/*# sourceMappingURL=calendar.css.map */

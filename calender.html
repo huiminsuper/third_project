@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 规定ie用最新的内核渲染 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge chrome=1">
+	<!-- 设置视口宽度与设备宽度一致不允许缩放页面 -->	
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telphone=no">
+	<meta name="format-detection" content="email=no">
+	<title>Calendar</title>
+	<link rel="stylesheet" href="css2/calendar.css">
+	<link rel="stylesheet" href="css2/font-awesome.min.css">
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<a href="#"></a>
+			<label for="">酒店搜索</label>
+		</header>
+		<div class="content">
+			<ul>
+				<li>
+					<a href="#"><span>目的地</span><span>北京</span>
+					</a>
+					<i>></i>
+					<span class='set'>我的位置<i class='fa fa-fw fa-compress'></i></span>
+				</li>
+				<li>
+					<a id='show'><span>日期</span>
+						<div class='date'>
+							<p><span id='date_in'>06月20日</span><span>入住</span><label for="" id='week_in'>今</label></p>
+							<p><span id='date_out'>06月21日</span><span>离店 共<i id='count'>一</i>晚</span><label for="" id='week_out'>后</label></p>
+						</div>
+					</a>
+					<i></i>
+				</li>
+				<li><a href="#"><span>关键字</span><input type="text" placeholder='酒店名/地名'></a><i>></i></li>
+				<li><a href="#"><span>星级价格</span><input type="text" placeholder='不限星级/价格'></a><i>></i></li>
+				<li><a href="#"><span><i class='fa fa-fw fa-microphone'></i></span><input value='搜索' type="button"></a></li>
+			</ul>
+		</div>
+	</div>
+	<script src='js/zepto.min.js'></script>
+	<script src='js/base.js'></script>	
+	<script src='js/home.js'></script>
+</body>
+</html>
